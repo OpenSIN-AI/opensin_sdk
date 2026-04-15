@@ -1,0 +1,18 @@
+{
+  "name": "@opensin/sdk",
+  "version": "1.0.0",
+  "description": "Standalone SDK package for OpenSIN AI Agent Framework",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "test": "bun test",
+    "lint": "echo 'No lint configured yet'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": ["opensin", "a2a", "agent-framework", "sdk"],
+  "author": "OpenSIN-AI",
+  "license": "MIT",
+  "repository": "https://github.com/OpenSIN-AI/opensin_sdk"
+}
